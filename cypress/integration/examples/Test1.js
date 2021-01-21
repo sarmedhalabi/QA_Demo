@@ -3,10 +3,20 @@ describe(' my first test case', function(){
     it('my first test case',function(){
 
 
-        cy.visit("https://www.amazon.com/")
-        cy.get('#twotabsearchtextbox').type('cars')
+        cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+        cy.get('input[type=search]').type('ca')
+        cy .get('.products').find('.product').each(($el,index,$list)=>{
+const textveg= $el.find('h4.product-name').text()
 
-        cy.get('#nav-search-submit-button').click()
+if( textveg.includes('Cauli')){
+
+    $el.find('button').click()
+}
+
+
+
+        })
+        
 
 
 
