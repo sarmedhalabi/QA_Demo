@@ -1,6 +1,6 @@
 describe(' my first test case', function(){
 
-    it('my first test case',function(){
+    it.skip('my first test case',function(){
 
 
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
