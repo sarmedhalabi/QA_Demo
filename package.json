@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open",
+    "run" : "cypress open --headed --browser chrome --spec"
   },
   "author": "sarmed",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.3.0"
   }
+
 }
