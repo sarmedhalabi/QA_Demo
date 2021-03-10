@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "run" : "cypress open --headed --browser chrome --spec"
+    "run": "cypress open --headed --browser chrome --spec"
   },
   "author": "sarmed",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^6.3.0"
   }
-
 }

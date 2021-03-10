@@ -11,6 +11,7 @@ const textveg= $el.find('h4.product-name').text()
 if( textveg.includes('Cauli')){
 
     $el.find('button').click()
+    // adding a comment
 }
 
 
